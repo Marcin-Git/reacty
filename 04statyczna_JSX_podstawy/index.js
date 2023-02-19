@@ -1,0 +1,1 @@
+ReactDOM.render(<h1>To jest JSX</h1>, document.getElementById("root"));
