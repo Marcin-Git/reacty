@@ -1,3 +1,7 @@
+// trzeba REACTA zaimportować ale jeszcze nie wiem jak, trzeba go chyba ściągnąć na dysk i mieć go w zasobach
+import React from "react";
+import ReactDOM from "React-dom";
+
 // wyświetlenie lini 
 ReactDOM.render(<h1>To jest JSX</h1>, document.getElementById("root"));
 
