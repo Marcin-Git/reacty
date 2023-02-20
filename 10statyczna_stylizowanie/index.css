@@ -1,0 +1,25 @@
+
+/* stylizowanie klasy nav-element która to wyświetla flex'a by sie mieściły w jednej lini i rozstrzeliły na boki i przy okazji miały być wyśrodkowane */
+.nav-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* stylizowanie paska nawigacji by sie kropki nie pojawiły przy punktach i przy okazji wyświetlały się w jednej lini */
+.nav-item {
+    list-style: none;
+    display: flex;
+    
+}
+
+/* odstępy między wyrazami w nawigacji zwiększone paddingiem do 20 px */
+.nav-item > li {
+    padding: 20px;
+}
+
+
+/* ingerencja w ustawienia obrazu i zmiana szerokości wyświetlania loga do 80 px */
+.nav-logo {
+    width: 80;
+}
