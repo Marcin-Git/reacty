@@ -1,3 +1,4 @@
+import React from 'react';
 // komponent główna część strony
 export default function Glowna() {
     return (
@@ -11,5 +12,5 @@ export default function Glowna() {
                 <li>Piąty fakt</li>
             </ul>
         </div>
-    )
-}
+    );
+};

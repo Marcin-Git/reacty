@@ -1,8 +1,7 @@
 
-
-// komponent Header
-export default function Gora() {
+ function Header(){
     return (
+        <div>
             <header>
                 <nav className="nav-element">
                     <img src="./logo.png" className="nav-logo"/>
@@ -13,6 +12,7 @@ export default function Gora() {
                     </ul>
                 </nav>
             </header>
-        
-    )
+        </div>
+    );
 }
+export default Header;

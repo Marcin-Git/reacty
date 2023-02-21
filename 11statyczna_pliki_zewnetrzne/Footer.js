@@ -1,4 +1,5 @@
 // komponent Footer
+import React from 'react';
 export default function Dol() {
     return (
         <div>
@@ -6,5 +7,5 @@ export default function Dol() {
                 <small>© 2021 Ziroll development. All rights reserved.</small>
             </footer>
         </div>
-    )
-}
+    );
+};
